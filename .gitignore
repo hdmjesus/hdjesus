@@ -1,0 +1,5 @@
+src/images/*.png
+src/images/*.jpg
+src/images/*.jpeg
+src/images/*.gif
+node_modules
