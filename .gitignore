@@ -2,4 +2,5 @@ src/images/*.png
 src/images/*.jpg
 src/images/*.jpeg
 src/images/*.gif
+src/images/*.svg
 node_modules
