@@ -37,8 +37,15 @@ $gray-black:#211F1F;
 $gray-medium:#0B0B0CB8;
 $gray:#989898;
 $gray-light:#DBDBDB;
+$white:#fff;
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
 }

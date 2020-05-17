@@ -30,6 +30,7 @@
 
 @import "Componentes/switch";
 @import "Componentes/lines";
+@import "Componentes/buttons";
 
 /**
 * Layout and general styles
@@ -41,3 +42,5 @@
 /**
 * Componets used for layouts, headers, articles, etc...
 **/
+
+@import "Pages/home";
