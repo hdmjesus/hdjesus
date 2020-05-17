@@ -11,7 +11,7 @@
 
 // SEGUN EL TITLO QUE SEA, DA EL TAMAÑO DE LA FUENTE
 @each $header,
-$size in (h1: 30px, h2: 25px, h3: 20px, h4:16px, h5:14px, h6:12px) {
+$size in (h1: 34px, h2: 24px, h3: 20px, h4:16px, h5:14px, h6:12px) {
     #{$header} {
         font-size: $size;
         @include titulos($font-title);

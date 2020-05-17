@@ -17,9 +17,21 @@
         margin-right: 30px;
         color: $gray;
         cursor: pointer;
+        display: none
     }
     &--nav-desktop {
-        display: none;
+        a {
+            color: $color-second;
+            text-decoration: none;
+        }
+        ul {
+            display: flex;
+            margin-right: 10px;
+        }
+        li {
+            list-style: none;
+            margin: 15px;
+        }
     }
     &__components {
         display: flex;
