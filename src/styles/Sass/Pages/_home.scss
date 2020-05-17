@@ -1,4 +1,5 @@
 .hero {
+    min-height: 100vh;
     &__curriculum {
         width: 100%;
         margin-top: 10px;
@@ -32,6 +33,7 @@
         }
     }
     &__description {
+        margin-top: 10px;
         width: 70%;
         h1 {
             line-height: 30px;
@@ -47,6 +49,38 @@
         }
         p {
             text-align: justify;
+        }
+    }
+}
+
+.services {
+    margin-top: 40px;
+    position: relative;
+    .service {
+        .figure-service {
+            display: block;
+            width: 190px;
+            height: 100px;
+            position: absolute;
+            left: 0;
+            border-radius: 0 64px 64px 0;
+            background-color: $primary-variation1;
+            opacity: 1;
+        }
+        &__image {
+            display: inline-block;
+            position: relative;
+            width: 200px;
+            height: 100px;
+            img {
+                position: absolute;
+                left: 30px;
+                top: 25px;
+            }
+        }
+        &__description {
+            padding: 20px;
+            margin-top: 30px;
         }
     }
 }
