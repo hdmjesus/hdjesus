@@ -5,13 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link href="https://fonts.googleapis.com/css2?family=Marmelad&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="src/images/hdjesus.png">
+    <script src="https://kit.fontawesome.com/4f82ce23a4.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="src/images/Assets/hdjesus.png">
     <link rel="stylesheet" href="src/styles/css/main.css">
 
     <title>Jesus Hernandez</title>
 </head>
 
 <body>
+    <header class="header">
+        <figure class="header__logo">
+            <img src="src/images/Assets/hdjesus.png" alt="hdjesus">
+        </figure>
+
+        <div class="header__components">
+            <nav class="header--nav-mobile">
+                <p><i class="fas fa-bars"></i></p>
+            </nav>
+
+            <nav class="header--nav-desktop">
+                <ul>
+                    <li>Inicio</li>
+                    <li>Sobre mi</li>
+                    <li>Portafolio</li>
+                    <li>Blog</li>
+                </ul>
+            </nav>
+
+            <div class="switch">
+                <input type="checkbox" id="switch">
+                <label for="switch" class="lbl"></label>
+            </div>
+        </div>
+
+    </header>
+    <hr class="line--header">
+
     <script src="/src/js/index.js"></script>
 </body>
 

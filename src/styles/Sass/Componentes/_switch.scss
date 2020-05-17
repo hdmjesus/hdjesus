@@ -1,0 +1,40 @@
+.switch {
+    margin-top: 5px;
+    height: auto;
+}
+
+.lbl {
+    display: inline-block;
+    width: 45px;
+    height: 24px;
+    position: relative;
+    cursor: pointer;
+    background-color: $gray-light;
+    border-radius: 100px;
+    transition: .3s;
+}
+
+.lbl::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    background-color: #eee;
+    border-radius: 100px;
+    transition: .3s;
+}
+
+#switch:checked+.lbl::after {
+    left: 26px;
+}
+
+#switch:checked+.lbl {
+    background-color: $color-second;
+}
+
+#switch {
+    display: none;
+}

@@ -4,3 +4,4 @@ src/images/*.jpeg
 src/images/*.gif
 src/images/*.svg
 node_modules
+prepros.config

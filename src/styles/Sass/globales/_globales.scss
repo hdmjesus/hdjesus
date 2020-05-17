@@ -1,0 +1,44 @@
+/*------------------------------------*\
+    Variables
+\*------------------------------------*/
+
+
+/**
+ * Fonts
+ */
+
+$font-title:'Marmelad',
+sans-serif;
+$font-body:'Ubuntu',
+sans-serif;
+
+/*------------------------------------*\
+    Colores
+\*------------------------------------*/
+
+$color-body:#F6F9FC;
+$color-primary:#00C02ACC;
+$color-second:#32325D;
+
+/**
+ * Colors-variacion
+ */
+
+$primary-variation1:#34E35D80;
+$primary-variation2:#54FF7C7D;
+$primary-variation3:#34E35B33;
+
+/**
+ * Color-black-white
+ */
+
+$black:#001A06;
+$gray-black:#211F1F;
+$gray-medium:#0B0B0CB8;
+$gray:#989898;
+$gray-light:#DBDBDB;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
