@@ -31,3 +31,35 @@
 /*--------------------------------------*\
     CALL TO ACTION , WE DO A PROJECT
 \*--------------------------------------*/
+
+
+/*--------------------------------------*\
+    BUTTONS PRINCIPALES
+\*--------------------------------------*/
+
+.button-primary {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: $black;
+    background-color: $primary-variation2;
+}
+
+.button-second {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: $black;
+    border: 1px solid $color-second;
+}
+
+
+/*--------------------------------------*\
+    BUTTONS PRINCIPALES
+\*--------------------------------------*/
