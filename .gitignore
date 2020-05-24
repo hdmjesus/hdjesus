@@ -3,6 +3,10 @@ src/images/*.jpg
 src/images/*.jpeg
 src/images/*.gif
 src/images/*.svg
+src/images/Assets/*.svg
+src/images/Assets/*.png
+src/images/Assets/*.jpeg
+src/images/Assets/*.gif
 node_modules
 prepros.config
 .prettierrc
