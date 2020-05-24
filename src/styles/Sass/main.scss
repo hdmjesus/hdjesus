@@ -29,11 +29,11 @@
 @import 'Componentes/switch';
 @import 'Componentes/lines';
 @import 'Componentes/buttons';
+@import 'Componentes/banners';
 
 /**
 * Layout and general styles
 **/
-
 @import 'Layout/body';
 @import 'Layout/header';
 @import 'Layout/footer';
@@ -42,3 +42,4 @@
 **/
 @import 'Pages/home';
 @import 'Pages/portafolio';
+@import 'Pages/blog';
