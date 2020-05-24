@@ -2,45 +2,42 @@
     $PARTIALS
 \*------------------------------------*/
 
-
 /**
  * All files to be compiled
  */
 
-@import "base/normalice";
-@import "base/breackpoints";
-@import "globales/grid";
+@import 'base/normalice';
+@import 'base/breackpoints';
+@import 'globales/grid';
 
 /**
 * Scss Libraries, mixins, functions and any Scss focused logic
 **/
 
-@import "globales/globales";
-@import'globales/mixins';
-@import "globales/functions";
+@import 'globales/globales';
+@import 'globales/mixins';
+@import 'globales/functions';
 
 /**
 * Base
 **/
 
-
 /**
 * HTML elements
 **/
 
-@import "Componentes/switch";
-@import "Componentes/lines";
-@import "Componentes/buttons";
+@import 'Componentes/switch';
+@import 'Componentes/lines';
+@import 'Componentes/buttons';
 
 /**
 * Layout and general styles
 **/
 
-@import "Layout/body";
+@import 'Layout/body';
 @import 'Layout/header';
-
+@import 'Layout/footer';
 /**
 * Componets used for layouts, headers, articles, etc...
 **/
-
-@import "Pages/home";
+@import 'Pages/home';

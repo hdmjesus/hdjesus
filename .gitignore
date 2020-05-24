@@ -5,3 +5,6 @@ src/images/*.gif
 src/images/*.svg
 node_modules
 prepros.config
+.prettierrc
+.babelrc
+.eslintrc.json
