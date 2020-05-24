@@ -2,50 +2,47 @@
     Variables
 \*------------------------------------*/
 
-
 /**
  * Fonts
  */
 
-$font-title:'Marmelad',
-sans-serif;
-$font-body:'Ubuntu',
-sans-serif;
+$font-title: 'Marmelad', sans-serif;
+$font-body: 'Ubuntu', sans-serif;
 
 /*------------------------------------*\
     Colores
 \*------------------------------------*/
 
-$color-body:#F6F9FC;
-$color-primary:#00C02ACC;
-$color-second:#32325D;
+$color-body: #f6f9fc;
+$color-primary: #00c02acc;
+$color-second: #32325d;
 
 /**
  * Colors-variacion
  */
 
-$primary-variation1:#34E35D80;
-$primary-variation2:#54FF7C7D;
-$primary-variation3:#34E35B33;
+$primary-variation1: #34e35d80;
+$primary-variation2: #54ff7c7d;
+$primary-variation3: #34e35b33;
 
 /**
  * Color-black-white
  */
 
-$black:#001A06;
-$gray-black:#211F1F;
-$gray-medium:#0B0B0CB8;
-$gray:#989898;
-$gray-light:#DBDBDB;
-$white:#fff;
+$black: #001a06;
+$gray-black: #211f1f;
+$gray-medium: #0b0b0cb8;
+$gray: #989898;
+$gray-light: #dbdbdb;
+$white: #fff;
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .container {
-    width: 90%;
-    max-width: 1600px;
-    margin: 0 auto;
+	width: 90%;
+	max-width: 1600px;
+	margin: 0 auto;
 }
