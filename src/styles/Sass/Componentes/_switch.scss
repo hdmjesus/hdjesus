@@ -1,41 +1,41 @@
 .switch {
-    margin-top: 5px;
-    height: auto;
+	margin-top: 5px;
+	height: auto;
 }
 
 .lbl {
-    display: inline-block;
-    width: 45px;
-    height: 24px;
-    position: relative;
-    cursor: pointer;
-    background-color: $gray-light;
-    border-radius: 100px;
-    transition: .3s;
+	display: inline-block;
+	width: 45px;
+	height: 24px;
+	position: relative;
+	cursor: pointer;
+	background-color: $gray-light;
+	border-radius: 100px;
+	transition: 0.3s;
 }
 
 .lbl::after {
-    content: "";
-    display: block;
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 4px;
-    left: 4px;
-    background-color: #eee;
-    border-radius: 100px;
-    transition: .3s;
+	content: '';
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	background-color: #eee;
+	border-radius: 100px;
+	transition: 0.3s;
 }
 
-#switch:checked+.lbl::after {
-    left: 26px;
+#switch:checked + .lbl::after {
+	left: 26px;
 }
 
 // Esto quiere decir que si #switch esta activado haga algo con .lbl
-#switch:checked+.lbl {
-    background-color: $color-second;
+#switch:checked + .lbl {
+	background-color: $color-second;
 }
 
 #switch {
-    display: none;
+	display: none;
 }
