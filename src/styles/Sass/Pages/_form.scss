@@ -46,9 +46,11 @@
 	}
 	p {
 		margin-left: 20px;
+		z-index: -100;
 	}
 	img {
 		height: 100%;
 		width: 100px;
+		z-index: -101;
 	}
 }

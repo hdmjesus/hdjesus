@@ -12,13 +12,13 @@
 			width: 100%;
 		}
 	}
-	&__nav-mobile p {
+	&--nav-mobile p {
 		font-size: 23px;
 		margin-right: 30px;
 		color: $gray;
 		cursor: pointer;
 	}
-	&__nav-desktop {
+	&--nav-desktop {
 		display: none;
 		a {
 			color: $color-second;
