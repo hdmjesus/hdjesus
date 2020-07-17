@@ -1,6 +1,6 @@
 body {
-    background-color: $color-body;
-    color: $black;
-    @include font-size(14px);
-    @include titulos($font-body)
+  background-color: $color-body;
+  color: $black;
+  @include font-size(14px);
+  @include titulos($font-body);
 }

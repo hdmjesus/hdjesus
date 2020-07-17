@@ -1,16 +1,18 @@
 .post {
-	padding: 10px;
+  padding: 10px;
 
-	&__buttons {
-		a {
-			width: 250px;
-			display: block;
-			padding: 10px 90px;
-			text-align: center;
-			background-color: $color-second;
-			color: #fff;
-			text-decoration: none;
-			font-weight: 700;
-		}
-	}
+  &__buttons {
+    a {
+      width: 250px;
+      display: block;
+      padding: 10px 90px;
+      text-align: center;
+      background-color: $color-second;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+      margin: auto;
+      height: 50px;
+    }
+  }
 }
