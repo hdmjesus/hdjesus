@@ -16,6 +16,7 @@ $font-body: 'Ubuntu', sans-serif;
 $color-body: #f6f9fc;
 $color-primary: #00c02acc;
 $color-second: #32325d;
+$color-second-dark: #23bceb;
 
 /**
  * Colors-variacion
@@ -35,6 +36,13 @@ $gray-medium: #0b0b0cb8;
 $gray: #989898;
 $gray-light: #dbdbdb;
 $white: #fff;
+
+/**
+ * Colors-darkMode
+ */
+$button-night: #343d5b;
+$button-day: #e0d75b;
+
 * {
   margin: 0;
   padding: 0;
@@ -45,4 +53,27 @@ $white: #fff;
   width: 90%;
   max-width: 1600px;
   margin: 0 auto;
+}
+
+p {
+  body.dark & {
+    color: $white;
+  }
+}
+
+h2 {
+  body.dark & {
+    color: $color-second-dark;
+  }
+}
+
+h3 {
+  body.dark & {
+    color: $color-primary;
+  }
+}
+h4 {
+  body.dark & {
+    color: $white;
+  }
 }

@@ -1,192 +1,218 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, user-scalable=no"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Marmelad&family=Ubuntu:wght@300;400;700&display=swap"
-			rel="stylesheet"
-		/>
-		<script
-			src="https://kit.fontawesome.com/4f82ce23a4.js"
-			crossorigin="anonymous"
-		></script>
-		<link rel="icon" href="../src/images/Assets/hdjesus.png" />
-		<link rel="stylesheet" href="../src/styles/css/main.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marmelad&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4f82ce23a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="../src/images/Assets/hdjesus.png" />
+    <link rel="stylesheet" href="../src/styles/css/main.css" />
 
-		<title>Jesus Hernandez</title>
-	</head>
+    <title>Jesus Hernandez</title>
+  </head>
 
-	<body>
-		<header class="header">
-			<figure class="header__logo">
-				<img src="../src/images/Assets/hdjesus.png" alt="hdjesus" />
-			</figure>
+  <body>
+    <header class="header" id="header">
+      <figure class="header__logo">
+        <img src="../src/images/Assets/hdjesus.png" alt="hdjesus" />
+      </figure>
 
-			<div class="header__components">
-				<nav class="header--nav-mobile">
-					<p><i class="fas fa-bars"></i></p>
-				</nav>
+      <div class="header__components">
+        <nav class="header--nav-mobile">
+          <p id="nav-mobile"><i class="fas fa-bars"></i></p>
+        </nav>
 
-				<nav class="header--nav-desktop">
-					<ul>
-						<li><a href="">Inicio</a></li>
-						<li><a href="">Sobre mi</a></li>
-						<li><a href="">Portafolio</a></li>
-						<li><a href="">Blog</a></li>
-					</ul>
-				</nav>
+        <nav class="enlances uno" id="enlances">
+          <ul>
+            <li>
+              <a href="">
+                <i class="fa fa-home" aria-hidden="true"></i> | Inicio</a
+              >
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-briefcase" aria-hidden="true"></i> |
+                Portafolio</a
+              >
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-rss" aria-hidden="true"></i> | Blog</a
+              >
+            </li>
+          </ul>
 
-				<div class="switch">
-					<input type="checkbox" id="switch" />
-					<label for="switch" class="lbl"></label>
-				</div>
-			</div>
-		</header>
-		<hr class="line--header" />
+          <div class="redes">
+            <div class="redes-enlace">
+              <div class="container">
+                <div class="social-list">
+                  <a href=""
+                    ><img src="../src/images/Assets/face.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../src/images/Assets/ig.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../src/images/Assets/twitter.png" alt=""
+                  /></a>
+                  <a href=""
+                    ><img src="../src/images/Assets/lik.png" alt=""
+                  /></a>
+                  <a href=""><i class="fab fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
 
-		<main>
-			<section class="banner">
-				<figure class="banner__image">
-					<img
-						src="../src/images/blogs.jpg"
-						alt="banner Potafolio"
-					/>
-				</figure>
-			</section>
+        <nav class="header--nav-desktop">
+          <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Sobre mi</a></li>
+            <li><a href="">Portafolio</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </nav>
 
-			<section class="posts">
-				<div class="container">
-					<article class="post">
-						<h3 class="post__title">Title</h3>
-						<div class="post__description">
-							Lorem ipsum dolor, sit amet consectetur
-							adipisicing elit. Tempora officia voluptas ut
-							magnam a voluptatem nostrum, aut consequuntur
-							nobis aliquid voluptates ducimus deserunt
-							minima repellendus.
-						</div>
+        <button class="switch" id="switch">
+          <span><i class="fas fa-sun"></i></span>
+          <span><i class="fas fa-moon"></i></span>
+        </button>
+      </div>
+    </header>
 
-						<div class="post__buttons">
-							<a href="">LEER MAS</a>
-						</div>
-					</article>
+    <main>
+      <section class="banner">
+        <figure class="banner__image">
+          <img src="../src/images/blogs.jpg" alt="banner Potafolio" />
+        </figure>
+      </section>
 
-					<article class="post">
-						<h3 class="post__title">Title</h3>
-						<div class="post__description">
-							Lorem ipsum dolor, sit amet consectetur
-							adipisicing elit. Tempora officia voluptas ut
-							magnam a voluptatem nostrum, aut consequuntur
-							nobis aliquid voluptates ducimus deserunt
-							minima repellendus.
-						</div>
+      <section class="posts">
+        <div class="container">
+          <article class="post">
+            <h3 class="post__title">Title</h3>
+            <div class="post__description">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora officia voluptas ut magnam a voluptatem nostrum, aut
+                consequuntur nobis aliquid voluptates ducimus deserunt minima
+                repellendus.
+              </p>
+            </div>
 
-						<div class="post__buttons">
-							<a href="">LEER MAS</a>
-						</div>
-					</article>
+            <div class="post__buttons">
+              <a href="">LEER MAS</a>
+            </div>
+          </article>
 
-					<article class="post">
-						<h3 class="post__title">Title</h3>
-						<div class="post__description">
-							Lorem ipsum dolor, sit amet consectetur
-							adipisicing elit. Tempora officia voluptas ut
-							magnam a voluptatem nostrum, aut consequuntur
-							nobis aliquid voluptates ducimus deserunt
-							minima repellendus.
-						</div>
+          <article class="post">
+            <h3 class="post__title">Title</h3>
+            <div class="post__description">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora officia voluptas ut magnam a voluptatem nostrum, aut
+                consequuntur nobis aliquid voluptates ducimus deserunt minima
+                repellendus.
+              </p>
+            </div>
 
-						<div class="post__buttons">
-							<a href="">LEER MAS</a>
-						</div>
-					</article>
+            <div class="post__buttons">
+              <a href="">LEER MAS</a>
+            </div>
+          </article>
 
-					<article class="post">
-						<h3 class="post__title">Title</h3>
-						<div class="post__description">
-							Lorem ipsum dolor, sit amet consectetur
-							adipisicing elit. Tempora officia voluptas ut
-							magnam a voluptatem nostrum, aut consequuntur
-							nobis aliquid voluptates ducimus deserunt
-							minima repellendus.
-						</div>
+          <article class="post">
+            <h3 class="post__title">Title</h3>
+            <div class="post__description">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora officia voluptas ut magnam a voluptatem nostrum, aut
+                consequuntur nobis aliquid voluptates ducimus deserunt minima
+                repellendus.
+              </p>
+            </div>
 
-						<div class="post__buttons">
-							<a href="">LEER MAS</a>
-						</div>
-					</article>
+            <div class="post__buttons">
+              <a href="">LEER MAS</a>
+            </div>
+          </article>
 
-					<article class="post">
-						<h3 class="post__title">Title</h3>
-						<div class="post__description">
-							Lorem ipsum dolor, sit amet consectetur
-							adipisicing elit. Tempora officia voluptas ut
-							magnam a voluptatem nostrum, aut consequuntur
-							nobis aliquid voluptates ducimus deserunt
-							minima repellendus.
-						</div>
+          <article class="post">
+            <h3 class="post__title">Title</h3>
+            <div class="post__description">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora officia voluptas ut magnam a voluptatem nostrum, aut
+                consequuntur nobis aliquid voluptates ducimus deserunt minima
+                repellendus.
+              </p>
+            </div>
 
-						<div class="post__buttons">
-							<a href="">LEER MAS</a>
-						</div>
-					</article>
-				</div>
-			</section>
-		</main>
+            <div class="post__buttons">
+              <a href="">LEER MAS</a>
+            </div>
+          </article>
 
-		<footer class="footer">
-			<div class="footer_redes">
-				<div class="container">
-					<div class="social-list">
-						<a href=""
-							><img
-								src="../src/images/Assets/face.png"
-								alt=""
-						/></a>
-						<a href=""
-							><img
-								src="../src/images/Assets/ig.png"
-								alt=""
-						/></a>
-						<a href=""
-							><img
-								src="../src/images/Assets/twitter.png"
-								alt=""
-						/></a>
-						<a href=""
-							><img
-								src="../src/images/Assets/lik.png"
-								alt=""
-						/></a>
-						<a href=""><i class="fab fa-github"></i></a>
-					</div>
-				</div>
-			</div>
+          <article class="post">
+            <h3 class="post__title">Title</h3>
+            <div class="post__description">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempora officia voluptas ut magnam a voluptatem nostrum, aut
+                consequuntur nobis aliquid voluptates ducimus deserunt minima
+                repellendus.
+              </p>
+            </div>
 
-			<div class="footer__nav">
-				<div class="container">
-					<div class="footer__flex">
-						<nav>
-							<ul>
-								<a>Inicio</a>
-								<a>Sobre mi</a>
-								<a>Portafolio</a>
-								<a>Blog</a>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
+            <div class="post__buttons">
+              <a href="">LEER MAS</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
 
-			<div class="footer__derechos">
-				<div class="container">
-					<p>&copy Jesus Hernandez All rights reserved.</p>
-				</div>
-			</div>
-		</footer>
-	</body>
+    <footer class="footer">
+      <div class="footer_redes">
+        <div class="container">
+          <div class="social-list">
+            <a href=""><img src="../src/images/Assets/face.png" alt="" /></a>
+            <a href=""><img src="../src/images/Assets/ig.png" alt="" /></a>
+            <a href=""><img src="../src/images/Assets/twitter.png" alt="" /></a>
+            <a href=""><img src="../src/images/Assets/lik.png" alt="" /></a>
+            <a href=""><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__nav">
+        <div class="container">
+          <div class="footer__flex">
+            <nav>
+              <ul>
+                <a>Inicio</a>
+                <a>Sobre mi</a>
+                <a>Portafolio</a>
+                <a>Blog</a>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__derechos">
+        <div class="container">
+          <p>&copy Jesus Hernandez All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="../src/js/index.js"></script>
+  </body>
 </html>

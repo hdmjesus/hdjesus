@@ -1,5 +1,5 @@
 .hero {
-  min-height: 100vh;
+  padding-top: 70px;
   &__curriculum {
     width: 100%;
     margin-top: 10px;
@@ -43,17 +43,16 @@
     h3 {
       margin-top: 10px;
       margin-bottom: 5px;
-      @include font-size(14px);
       letter-spacing: 1px;
       color: $color-second;
+      transition: 0.3s ease all;
+      @include font-size(14px);
+      body.dark & {
+        color: $color-second-dark;
+      }
     }
     p {
       text-align: justify;
     }
   }
-}
-
-.bajate {
-  position: relative;
-  top: 70px;
 }

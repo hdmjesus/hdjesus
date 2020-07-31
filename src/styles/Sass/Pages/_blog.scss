@@ -5,7 +5,7 @@
     a {
       width: 250px;
       display: block;
-      padding: 10px 90px;
+      padding: 15px 90px;
       text-align: center;
       background-color: $color-second;
       color: #fff;
@@ -13,6 +13,11 @@
       font-weight: 700;
       margin: auto;
       height: 50px;
+    }
+    body.dark & {
+      a {
+        background-color: $color-second-dark;
+      }
     }
   }
 }

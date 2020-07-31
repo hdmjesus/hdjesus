@@ -9,6 +9,7 @@
   flex-direction: column;
   background-color: $color-second;
   transition: all 1s ease;
+  overflow: hidden;
 
   .redes {
     display: flex;
@@ -48,8 +49,4 @@
 .dos {
   -webkit-clip-path: circle(150% at 100% 0%);
   clip-path: circle(150% at 100% 0%);
-}
-
-.menu-fixed {
-  position: fixed;
 }
